@@ -40,6 +40,9 @@ export class CadastroUsuarioPage implements OnInit {
     }
   }
 
+  excluirUsuario(index: number){
+    this.usuariosCadastrados.splice(index, 1);
+  }
 
   constructor() { }
 
